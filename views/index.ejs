@@ -6,10 +6,19 @@
 <!-- Main Content-->
 <Main class="container">
 <div class="jumbotron">
-  <h1 class="display-4">Welcome to the <%= title %> page</h1>
+  <h1 class="display-4">Welcome To My <%= title %> Page</h1>
+  <% if (title == "Home") {%>
+        <p><p/>
+      <%} %>
  <% if (title == "About") {%>
-      <p>My name is Rajan.</p>
+      <p>Hello! I am Rajan Halai. I am from India but i was in Kenya for last couple of years.
+         I Came to canada in 2019 for further studies. I am studying software engineering at Centennial college.</p>
+         <img src="./Assets/images/My College.jpeg" alt="My College" style="float:center" width = "380" height="270" >
+      <p>I am also interested in Cyber security and learned little while i was in Kenya and curious to know more about it.</p>
       <% } %>
+  <% if (title == "Projects") {%>
+        <p>Honestly, i have not worked on any real-time projects. <p/>
+      <%} %>
 </div>
 </Main>
 
