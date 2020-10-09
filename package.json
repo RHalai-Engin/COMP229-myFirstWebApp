@@ -21,7 +21,7 @@
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
   },
-  "description": "exercise for my first web app",
+  "description": "my first web app",
   "main": "index.js",
   "devDependencies": {},
   "repository": {
